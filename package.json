@@ -1,10 +1,10 @@
 {
   "name": "crocods",
   "displayName": "CrocoDS",
-  "description": "",
+  "description": "Addon for the CrocoDS emulator (Amstrad CPC)",
   "publisher": "Kyuran",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.78.0"
   },
@@ -19,24 +19,24 @@
   "main": "./out/extension.js",
   "contributes": {      
       "configuration": {
-        "title": "Uncrustify",
+        "title": "CrocoDS",
         "properties": {
             "crocods.executablePath.linux": {
                 "type": "string",
                 "default": "",
-                "description": "Full path to crocoDS executable (Linux)",
+                "description": "Full path to CrocoDS executable (Linux)",
                 "scope": "window"
             },
             "crocods.executablePath.osx": {
                 "type": "string",
                 "default": "",
-                "description": "Full path to crocoDS executable (macOS)",
+                "description": "Full path to CrocoDS executable (macOS)",
                 "scope": "window"
             },
             "crocods.executablePath.windows": {
                 "type": "string",
                 "default": "",
-                "description": "Full path to crocoDS executable (Windows)",
+                "description": "Full path to CrocoDS executable (Windows)",
                 "scope": "window"
             }
           }
